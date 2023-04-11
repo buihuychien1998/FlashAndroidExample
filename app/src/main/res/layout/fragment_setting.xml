@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.demo.example.OS.custom.BoldText
+        android:id="@+id/tv_title_lag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:paddingStart="@dimen/margin_contact"
+        android:paddingEnd="@dimen/margin_contact"
+        android:text="@string/setting"
+        android:textColor="#000"
+        android:textSize="24sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tv_title_lag"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/v1"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/color_divider" />
+
+            <com.demo.example.OS.custom.MediumText
+                android:id="@+id/tv_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin_contact"
+                android:text="@string/main_setting"
+                android:textColor="@color/c_default"
+                android:textSize="13sp" />
+
+            <View
+                android:id="@+id/v2"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginStart="@dimen/margin_contact"
+                android:background="@color/color_divider" />
+
+            <com.demo.example.OS.custom.MediumText
+                android:id="@+id/tv_rate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin_contact"
+                android:text="@string/rate_app"
+                android:textColor="@color/c_selected"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/v3"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginStart="@dimen/margin_contact"
+                android:background="@color/color_divider" />
+
+            <com.demo.example.OS.custom.MediumText
+                android:id="@+id/tv_wallpaper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin_contact"
+                android:text="@string/change_wallpaper"
+                android:textColor="@color/c_selected"
+                android:textSize="14sp"
+                android:visibility="gone" />
+
+            <View
+                android:id="@+id/v9"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginStart="@dimen/margin_contact"
+                android:background="@color/color_divider"
+                android:visibility="gone" />
+
+            <com.demo.example.OS.custom.MediumText
+                android:id="@+id/tv_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin_contact"
+                android:text="@string/style"
+                android:textColor="@color/c_selected"
+                android:textSize="14sp" />
+
+            <com.demo.example.OS.custom.MediumText
+                android:id="@+id/tv_block"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin_contact"
+                android:text="@string/block_numbers"
+                android:textColor="@color/c_selected"
+                android:textSize="14sp"
+                android:visibility="gone" />
+
+            <View
+                android:id="@+id/v10"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginStart="@dimen/margin_contact"
+                android:background="@color/color_divider" />
+
+            <com.demo.example.OS.custom.MediumText
+                android:id="@+id/tv_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin_contact"
+                android:text="@string/recording_list"
+                android:textColor="@color/c_selected"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/v8"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginStart="@dimen/margin_contact"
+                android:background="@color/color_divider"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <com.demo.example.OS.custom.MediumText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="@dimen/margin_contact"
+                    android:text="@string/sound_pad"
+                    android:textColor="@color/c_selected"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/im_status_pad"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:padding="14dp"
+                    android:src="@drawable/pad_sound" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/v5"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginStart="@dimen/margin_contact"
+                android:background="@color/color_divider" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.demo.example.OS.custom.MediumText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="@dimen/margin_contact"
+                    android:text="@string/dark_mode"
+                    android:textColor="@color/c_selected"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/im_dark"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/switch_off" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/v7"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginStart="@dimen/margin_contact"
+                android:background="@color/color_divider" />
+
+            <com.demo.example.OS.custom.MediumText
+                android:id="@+id/tv_fake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin_contact"
+                android:text="@string/fake"
+                android:textColor="@color/c_selected"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/v"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginStart="@dimen/margin_contact"
+                android:background="@color/color_divider" />
+
+            <View
+                android:id="@+id/v6"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/color_divider"
+                android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

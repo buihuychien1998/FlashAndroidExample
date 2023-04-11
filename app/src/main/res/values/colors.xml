@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#939393</color>
+    <color name="bg_load_ads">#a3e6e6e6</color>
+    <color name="c_default">#939393</color>
+    <color name="c_red">#fe373a</color>
+    <color name="c_selected">#1576fb</color>
+    <color name="colorNavi">#f7f7f7</color>
+    <color name="colorNavi_dark">#141414</color>
+    <color name="color_divider">#c3c3c3</color>
+    <color name="color_divider_dark">#252525</color>
+    <color name="color_gray">#838287</color>
+    <color name="divider">#e6e6e6</color>
+    <color name="duskYellow">#bababa</color>
+    <color name="gnt_ad_green">#3a6728</color>
+    <color name="gnt_black">#000000</color>
+    <color name="gnt_blue">#4285f4</color>
+    <color name="gnt_gray">#808080</color>
+    <color name="gnt_green">#00ff00</color>
+    <color name="gnt_outline">#e0e0e0</color>
+    <color name="gnt_red">#ff0000</color>
+    <color name="gnt_test_background_color">#00f4f4f4</color>
+    <color name="gnt_test_background_color_2">#00a3a3a3</color>
+    <color name="gnt_white">#ffffff</color>
+    <color name="ic_launcher_background">#55174f</color>
+    <color name="lightGrey">#29bad3</color>
+</resources>

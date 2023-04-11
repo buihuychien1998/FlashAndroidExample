@@ -1,0 +1,30 @@
+<resources>
+
+    <!--    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+    <!--        <item name="colorPrimary">@color/colorPrimary</item>-->
+    <!--        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+    <!--        <item name="colorAccent">@color/colorAccent</item>-->
+    <!--    </style>-->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="RatingBar" parent="@style/Theme.AppCompat">
+        <item name="colorControlActivated">@color/lightGrey</item>
+        <item name="colorControlNormal">@color/duskYellow</item>
+    </style>
+
+    <style name="AppThemeCall" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="Theme_Dialog" parent="@android:style/ThemeOverlay.Material.Dark">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

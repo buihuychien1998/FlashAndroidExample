@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="10dp"
+    android:paddingTop="10dp"
+    android:paddingEnd="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_content_info">
+
+        <com.demo.example.OS.custom.AvatarPeople
+            android:id="@+id/im_avatar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="10dp" />
+
+        <com.demo.example.OS.custom.BoldText
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/im_avatar"
+            android:layout_toEndOf="@+id/im_avatar"
+            android:textColor="#232323"
+            android:textSize="15sp" />
+
+        <com.demo.example.OS.custom.MediumText
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_name"
+            android:layout_marginBottom="5dp"
+            android:layout_toEndOf="@+id/im_status"
+            android:textColor="#989898"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/im_status"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tv_name"
+            android:layout_alignBottom="@+id/tv_time"
+            android:layout_marginEnd="10dp"
+            android:layout_toEndOf="@+id/im_avatar"
+            android:padding="4dp" />
+
+        <com.demo.example.OS.custom.MediumText
+            android:id="@+id/tv_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_name"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="15dp"
+            android:textColor="#989898"
+            android:textSize="12sp" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.demo.example.OS.custom.BoldText
+        android:id="@+id/tv_title_lag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:paddingStart="@dimen/margin_contact"
+        android:paddingEnd="@dimen/margin_contact"
+        android:text="@string/style"
+        android:textColor="#000"
+        android:textSize="24sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/magin_style"
+        android:layout_marginRight="@dimen/magin_style" />
+</LinearLayout>
